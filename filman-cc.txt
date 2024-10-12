@@ -14,7 +14,7 @@ filman.cc###belt .row > div:not(:last-of-type)
 filman.cc###belt .row > div:last-of-type:style(width: auto !important; margin-left: auto !important)
 filman.cc###belt .row > div:last-of-type li:first-of-type span.caret
 filman.cc###belt .row > div:last-of-type > ul > li:last-of-type
-filman.cc##header:style(position: unset !important)
+filman.cc##header:style(position: unset !important; padding-bottom: 0 !important)
 filman.cc##header .container .row:style(display: flex !important; align-items: center !important; row-gap: 12px !important)
 filman.cc##header .container .row > div:first-of-type:style(text-align: center !important)
 filman.cc##header .container .row > div:first-of-type img:style(max-width: min(220px, 100%) !important; padding-block: 8px !important)
