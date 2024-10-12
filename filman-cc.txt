@@ -5,7 +5,8 @@
 
 /* Main code */
 filman.cc##html:style(height: 100% !important)
-filman.cc##body:style(min-height: 100% !important)
+filman.cc##body:style(min-height: 100% !important; display: flex !important; flex-direction: column !important)
+filman.cc###wrapper + center + .container + .container:style(max-width: 100% !important)
 /* Header */
 filman.cc###belt:style(position: unset !important; margin-bottom: 0 !important)
 filman.cc###belt .row:style(display: flex !important)
@@ -26,10 +27,10 @@ filman.cc###search input:style(width: 100% !important)
 filman.cc##footer:style(margin-top: auto !important)
 filman.cc##footer .container:style(width: 100% !important)
 /* Comments/News/Tags */
-###wrapper + center + .container + .container > div.row:nth-of-type(6)
-###wrapper + center + .container + .container > div.row:nth-of-type(7)
-###wrapper + center + .container + .container > div.row:nth-of-type(8)
-###wrapper + center + .container + .container > div.row:nth-of-type(9)
+filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(6)
+filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(7)
+filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(8)
+filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(9)
 /* Google ReCaptcha*/
 filman.cc##.grecaptcha-badge
 filman.cc##.grecaptcha-badge + iframe
