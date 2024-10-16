@@ -40,6 +40,8 @@ filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(9)
 
 /* Series/Movie View */
 filman.cc###item-headline + .container:style(max-width: 100% !important)
+filman.cc###item-info > div.text-center .btn-group a:not(.btn):remove()
+filman.cc###item-info > div.text-center .btn-group a:style(padding: 6px 12px !important)
 /* Headline, Title */
 filman.cc##h1 span.small
 filman.cc###item-headline:style(padding-top: 200px !important; padding-bottom: 12px !important)
@@ -62,7 +64,7 @@ filman.cc###episode-list + div
 filman.cc###episode-list + div + div
 filman.cc###episode-list + div + div + hr
 /* Comments */
-filman.cc###item-info > h4:nth-of-type(6)
+filman.cc###item-info > h4:last-of-type
 filman.cc###item-info > h4 + div.alert.alert-info
 filman.cc###comments
 filman.cc###add-comment
@@ -79,6 +81,8 @@ filman.cc###player-container:style(min-height: 0 !important)
 filman.cc###link-list:style(max-height: none !important)
 filman.cc###link-list::-webkit-scrollbar:style(height: 10px !important)
 filman.cc###links:style(margin-bottom: 0 !important)
+filman.cc###links tr th:nth-of-type(n+4)
+filman.cc###links tr td:nth-of-type(n+4)
 filman.cc###links > tbody > tr > td:first-of-type:style(padding: 0 !important)
 filman.cc###links > tbody > tr > td:first-of-type a:style(display: block !important; width: 100% !important; padding: 8px !important)
 filman.cc###item-info form + br
