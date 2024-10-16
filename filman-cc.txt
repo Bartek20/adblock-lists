@@ -1,6 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202410121045
-! Expires: 7 days (update frequency)
+! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/Bartek20/adblock-lists
 
 /* Main code */
@@ -30,35 +29,56 @@ filman.cc###search input:style(width: 100% !important)
 /* Footer */
 filman.cc##footer:style(margin-top: auto !important)
 filman.cc##footer .container:style(width: 100% !important)
-/* Comments/News/Tags */
+/* Google ReCaptcha*/
+filman.cc##.grecaptcha-badge
+filman.cc##.grecaptcha-badge + iframe
+/* Comments/News/Tags (Home Page) */
 filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(6)
 filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(7)
 filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(8)
 filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(9)
-/* Google ReCaptcha*/
-filman.cc##.grecaptcha-badge
-filman.cc##.grecaptcha-badge + iframe
+
+/* Series/Movie View */
+filman.cc###item-headline + .container:style(max-width: 100% !important)
+/* Headline, Title */
+filman.cc##h1 span.small
+filman.cc###item-headline:style(padding-top: 200px !important; padding-bottom: 12px !important)
+/* Ratings */
+filman.cc###single-poster > *:not(img):not(a)
+filman.cc###single-poster > a div
+/* Directors, Actors, Script Production */
+filman.cc###item-info > hr:nth-of-type(1)
+filman.cc###item-info > h4:nth-of-type(2)
+filman.cc###item-info > [itemprop="director"]
+filman.cc###item-info > [itemprop="director"] + h4
+filman.cc###item-info > [itemprop="productionCompany"]
+filman.cc###item-info > [itemprop="productionCompany"] + h4
+filman.cc###item-info > [itemprop="actors"]
+filman.cc###item-info > [itemprop="actors"] + h4
 /* Episode List */
-filman.cc###episode-list:style(display: flex !important; flex-direction: column-reverse !important)
+filman.cc###episode-list:style(display: flex !important; flex-direction: column-reverse !important; margin-bottom: 0 !important)
 filman.cc###episode-list > li > ul:style(display: flex !important; flex-direction: column-reverse !important)
 filman.cc###episode-list + div
 filman.cc###episode-list + div + div
-/* Title */
-filman.cc##h1 span.small
-filman.cc###item-headline:style(padding-top: 200px !important; padding-bottom: 12px !important)
-/* Image */
-filman.cc###single-poster > *:not(img)
-/* Creators */
-filman.cc###item-info h4 + ul:not(#episode-list)
-filman.cc###item-info h4:not(:nth-of-type(1))
-filman.cc###item-info hr
+filman.cc###episode-list + div + div + hr
+/* Comments */
+filman.cc###item-info > h4:nth-of-type(6)
+filman.cc###item-info > h4 + div.alert.alert-info
+filman.cc###comments
+filman.cc###add-comment
+filman.cc###add-comment + hr
+filman.cc###add-comment + hr + div
+/* Player/URL Note */
+filman.cc###player-container:style(height: auto !important; margin-top: 0 !important; margin-bottom: 16px !important; overflow: auto !important)
+filman.cc###player-container > #frame center > br
+filman.cc###player-container > #frame b > br:last-of-type
+filman.cc###player-container > #frame b > a:style(margin-top: 10px !important)
 /* Link List */
 filman.cc###item-info form > ul
 filman.cc###player-container:style(min-height: 0 !important)
 filman.cc###link-list:style(max-height: none !important)
+filman.cc###link-list::-webkit-scrollbar:style(height: 10px !important)
 filman.cc###links:style(margin-bottom: 0 !important)
+filman.cc###links > tbody > tr > td:first-of-type:style(padding: 0 !important)
+filman.cc###links > tbody > tr > td:first-of-type a:style(display: block !important; width: 100% !important; padding: 8px !important)
 filman.cc###item-info form + br
-/* Comments */
-filman.cc###comments
-filman.cc###add-comment
-filman.cc##.fb-comments
