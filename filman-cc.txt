@@ -38,6 +38,16 @@ filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(7)
 filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(8)
 filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(9)
 
+/* Series/Movie Filter View */
+filman.cc###filter-quality:style(--cols: 2 !important)
+filman.cc###filter-version:style(--cols: 2 !important)
+filman.cc###filter-category:style(--cols: 1 !important; padding-right:6px !important)
+filman.cc###filter-year:style(--cols: 3 !important)
+filman.cc##[id*="filter"]:style(max-height: 300px !important; overflow: auto !important; margin-block: 6px !important; display: flex !important; flex-wrap: wrap !important; gap: 6px !important)
+filman.cc##[id*="filter"]::-webkit-scrollbar-track:style(box-shadow: none !important)
+filman.cc##[id*="filter"] li:style(float: none !important; margin: 0 !important; min-width: calc((100% - ((var(--cols, 1) - 1) * 6px)) / var(--cols, 1)) !important; width: auto !important; border-radius: 4px !important)
+filman.cc##[id*="filter"] li a:style(color: white !important; padding: 4px 8px !important)
+
 /* Series/Movie View */
 filman.cc###item-headline + .container:style(max-width: 100% !important)
 filman.cc###item-info > div.text-center .btn-group a:style(margin-inline: 8px !important; border-radius: 6px !important; padding: 6px 12px !important)
