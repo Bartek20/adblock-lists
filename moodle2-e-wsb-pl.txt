@@ -3,7 +3,9 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/Bartek20/adblock-lists
 
-moodle2.e-wsb.pl##.branding .site-logo:style(max-width: 100% !important)
+moodle2.e-wsb.pl##.branding > div:style(padding-inline: 1rem !important)
+moodle2.e-wsb.pl##.branding > div > div > div > div:style(padding-right: 0 !important)
+moodle2.e-wsb.pl##.branding .site-logo:style(max-width: 100% !important; max-height: 40px !important; height: auto !important)
 moodle2.e-wsb.pl###page.drawers:style(margin-top: 0px !important)
 moodle2.e-wsb.pl###page.drawers .main-inner:style(padding-top: 0px !important; margin-bottom: 0 !important)
 moodle2.e-wsb.pl###page.drawers .main-inner .secondarynavigation:not(:has(*))
