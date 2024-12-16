@@ -3,11 +3,14 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/Bartek20/adblock-lists
 
+/*/ Heading /*/
 moodle2.e-wsb.pl##.branding > div:style(padding-inline: 1rem !important)
 moodle2.e-wsb.pl##.branding > div > div > div > div:style(padding-right: 0 !important)
 moodle2.e-wsb.pl##.branding .site-logo:style(max-width: 100% !important; max-height: 40px !important; height: auto !important)
+
+/*/ Wszystkie kursy /*/
 moodle2.e-wsb.pl###page.drawers:style(margin-top: 0px !important)
-moodle2.e-wsb.pl###page.drawers .main-inner:style(padding-top: 0px !important; margin-bottom: 0 !important)
+moodle2.e-wsb.pl###page.drawers .main-inner:style(padding-top: 0px !important; margin-bottom: 0 !important; padding-bottom: 0 !important)
 moodle2.e-wsb.pl###page.drawers .main-inner .secondarynavigation:not(:has(*))
 moodle2.e-wsb.pl###page-header:style(margin-top: 10px !important)
 moodle2.e-wsb.pl###page-header h1.h2:style(margin-bottom: 0px !important)
@@ -16,6 +19,13 @@ moodle2.e-wsb.pl##[data-region="courses-view"] [data-region="course-content"] .r
 moodle2.e-wsb.pl##[data-region="courses-view"] [data-region="course-content"] .row > div:nth-of-type(2):style(min-width: calc(100% - 36px - 15px) !important; max-width: calc(100% - 36px - 15px)
 moodle2.e-wsb.pl##[data-region="courses-view"] [data-region="course-content"] .row > div:nth-of-type(3):style(max-width: 36px !important)
 moodle2.e-wsb.pl##[aria-labelledby="groupingdropdown"]:style(min-width: 100% !important)
-moodle2.e-wsb.pl##footer
+
+/*/ Kurs /*/
 moodle2.e-wsb.pl###page-navbar
+moodle2.e-wsb.pl###page-header .page-context-header:style(margin-inline: 15px !important)
+moodle2.e-wsb.pl###page-header .page-context-header .page-header-image:style(margin-right: 0 !important; padding-bottom: .5rem; padding-right: .5rem)
+moodle2.e-wsb.pl###page-header .page-context-header .page-header-headings:style(margin-top: 0 !important)
 moodle2.e-wsb.pl##li[id$="section-"]
+
+/*/ Footer /*/
+moodle2.e-wsb.pl##footer
