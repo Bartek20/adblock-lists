@@ -9,6 +9,7 @@ moodle2.e-wsb.pl##.branding > div > div > div > div:style(padding-right: 0 !impo
 moodle2.e-wsb.pl##.branding .site-logo:style(max-width: 100% !important; max-height: 40px !important; height: auto !important)
 
 /*/ Wszystkie kursy /*/
+moodle2.e-wsb.pl##.page-header-wrapper #page-header > div:first-of-type:last-of-type .page-context-header .page-header-headings:first-child
 moodle2.e-wsb.pl###page:style(margin-top: 0px !important)
 moodle2.e-wsb.pl###page #topofscroll:style(padding-top: 0px !important; margin-bottom: 0 !important; padding-bottom: 0 !important)
 moodle2.e-wsb.pl###page #topofscroll .secondarynavigation:not(:has(*))
@@ -22,10 +23,11 @@ moodle2.e-wsb.pl##[aria-labelledby="groupingdropdown"]:style(min-width: 100% !im
 
 /*/ Kurs /*/
 moodle2.e-wsb.pl###page-navbar
-moodle2.e-wsb.pl###page-header .page-context-header:style(margin-inline: 15px !important)
-moodle2.e-wsb.pl###page-header .page-context-header .page-header-image:style(margin-right: 0 !important; padding-bottom: .5rem; padding-right: .5rem)
+moodle2.e-wsb.pl###page-header .page-context-header:style(margin-inline: 15px !important; gap: .5rem !important)
+moodle2.e-wsb.pl###page-header .page-context-header .page-header-image:style(margin-right: 0 !important)
 moodle2.e-wsb.pl###page-header .page-context-header .page-header-headings:style(margin-top: 0 !important)
 moodle2.e-wsb.pl##li[id$="section-"]
 
 /*/ Footer /*/
 moodle2.e-wsb.pl##footer
+moodle2.e-wsb.pl##[title="Scroll Back to Top"]
