@@ -27,6 +27,8 @@ moodle2.e-wsb.pl###page-header .page-context-header:style(margin-inline: 15px !i
 moodle2.e-wsb.pl###page-header .page-context-header .page-header-image:style(margin-right: 0 !important)
 moodle2.e-wsb.pl###page-header .page-context-header .page-header-headings:style(margin-top: 0 !important)
 moodle2.e-wsb.pl##li[id$="section-"]
+moodle2.e-wsb.pl###course-index [role="treeitem"] .courseindex-link:style(width: 100% !important)
+moodle2.e-wsb.pl###course-index [role="treeitem"] .dragicon
 
 /*/ Footer /*/
 moodle2.e-wsb.pl##footer
