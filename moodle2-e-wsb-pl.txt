@@ -17,7 +17,8 @@ moodle2.e-wsb.pl###page-header:style(margin-top: 10px !important)
 moodle2.e-wsb.pl###page-header h1.h2:style(margin-bottom: 0px !important)
 moodle2.e-wsb.pl###page-my-index #region-main #block-region-content .block.card:style(margin-bottom: 0px !important)
 moodle2.e-wsb.pl##[data-region="courses-view"] [data-region="course-content"] .row > div:nth-of-type(1)
-moodle2.e-wsb.pl##[data-region="courses-view"] [data-region="course-content"] .row > div:nth-of-type(2):style(min-width: calc(100% - 36px - 15px) !important; max-width: calc(100% - 36px - 15px) !important)
+moodle2.e-wsb.pl##[data-region="courses-view"] [data-region="course-content"] .row > div:nth-of-type(2):style(min-width: calc(100% - 36px - 15px) !important; max-width: calc(100% - 36px - 15px) !important; justify-content: center !important)
+moodle2.e-wsb.pl##[data-region="courses-view"] [data-region="course-content"] .row > div:nth-of-type(2) > div:first-of-type
 moodle2.e-wsb.pl##[data-region="courses-view"] [data-region="course-content"] .row > div:nth-of-type(3):style(max-width: 36px !important)
 moodle2.e-wsb.pl##[aria-labelledby="groupingdropdown"]:style(min-width: 100% !important)
 
