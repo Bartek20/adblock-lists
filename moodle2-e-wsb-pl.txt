@@ -9,6 +9,7 @@ moodle2.e-wsb.pl##.branding > div > div > div > div:style(padding-right: 0 !impo
 moodle2.e-wsb.pl##.branding .site-logo:style(max-width: 100% !important; max-height: 40px !important; height: auto !important)
 
 /*/ Wszystkie kursy /*/
+moodle2.e-wsb.pl##.page-header-wrapper #page-header > div:first-of-type:last-of-type > div:last-child > h1.h2
 moodle2.e-wsb.pl##.page-header-wrapper #page-header > div:first-of-type:last-of-type .page-context-header .page-header-headings:first-child
 moodle2.e-wsb.pl###page:style(margin-top: 0px !important)
 moodle2.e-wsb.pl###page #topofscroll:style(padding-top: 0px !important; margin-bottom: 0 !important; padding-bottom: 0 !important)
