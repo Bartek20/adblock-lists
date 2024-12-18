@@ -31,6 +31,7 @@ moodle2.e-wsb.pl##[aria-labelledby="groupingdropdown"]:style(min-width: 100% !im
 /*/ Kurs /*/
 moodle2.e-wsb.pl###topofscroll .page-header-wrapper.has-course-header-image:has(.header-wrapper):style(margin-bottom: calc(36px + 1rem) !important)
 moodle2.e-wsb.pl##[data-key="unenrolself"]:style(display: block !important)
+moodle2.e-wsb.pl###topofscroll #user-notifications + div[role="main"] .course-content > div:first-of-type .section-details:has-text(Kurs realizowany w semestrze)
 moodle2.e-wsb.pl###page-navbar
 moodle2.e-wsb.pl###page-header .page-context-header:style(margin-inline: 15px !important; gap: .5rem !important; align-items: center !important)
 moodle2.e-wsb.pl###page-header .page-context-header .page-header-image:style(margin-right: 0 !important)
