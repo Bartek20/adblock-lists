@@ -75,8 +75,8 @@ filman.cc###episode-list + div
 filman.cc###episode-list + div + div
 filman.cc###episode-list + div + div + hr
 /* Comments */
-filman.cc###item-info > div.alert.alert-info
-filman.cc###item-info >  h4:last-of-type
+filman.cc###item-info div.alert.alert-info
+filman.cc###item-info h4:last-of-type
 filman.cc###item-info > div > h4:nth-last-of-type(2)
 filman.cc###item-info h4 + div.alert.alert-info
 filman.cc###comments
@@ -90,6 +90,7 @@ filman.cc###player-container > #frame center > br
 filman.cc###player-container > #frame b > br:last-of-type
 filman.cc###player-container > #frame b > a:style(margin-top: 10px !important)
 filman.cc###player-container > #frame iframe:style(margin-bottom: 0 !important)
+filman.cc###player-container > #kam-ban-player
 /* Link List */
 filman.cc###item-info form > ul
 filman.cc###player-container:style(min-height: 0 !important)
