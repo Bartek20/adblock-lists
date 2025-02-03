@@ -5,7 +5,7 @@
 /* Main code */
 filman.cc##html:style(height: 100% !important)
 filman.cc##body:style(min-height: 100% !important; display: flex !important; flex-direction: column !important)
-filman.cc###wrapper + center + .container + .container:style(max-width: 100% !important)
+filman.cc###wrapper + center + .container:style(max-width: 100% !important)
 /* Header */
 filman.cc###belt:style(position: unset !important; margin-bottom: 0 !important)
 filman.cc###belt .row:style(display: flex !important)
@@ -32,10 +32,10 @@ filman.cc##footer .container:style(width: 100% !important)
 filman.cc##.grecaptcha-badge
 filman.cc##.grecaptcha-badge + iframe
 /* Comments/News/Tags (Home Page) */
-filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(6)
-filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(7)
-filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(8)
-filman.cc###wrapper + center + .container + .container > div.row:nth-of-type(9)
+filman.cc###wrapper + center + .container > div.row:nth-of-type(6)
+filman.cc###wrapper + center + .container > div.row:nth-of-type(7)
+filman.cc###wrapper + center + .container > div.row:nth-of-type(8)
+filman.cc###wrapper + center + .container > div.row:nth-of-type(9)
 
 /* Series/Movie Filter View */
 filman.cc###filter-quality:style(--cols: 2 !important)
