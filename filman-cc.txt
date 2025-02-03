@@ -75,8 +75,8 @@ filman.cc###episode-list + div
 filman.cc###episode-list + div + div
 filman.cc###episode-list + div + div + hr
 /* Comments */
-filman.cc###item-info div.alert.alert-info:nth-last-of-type(1)
-filman.cc###item-info h4:last-of-type
+filman.cc###item-info > div.alert.alert-info
+filman.cc###item-info >  h4:last-of-type
 filman.cc###item-info > div > h4:nth-last-of-type(2)
 filman.cc###item-info h4 + div.alert.alert-info
 filman.cc###comments
