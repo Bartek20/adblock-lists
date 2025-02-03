@@ -36,6 +36,7 @@ filman.cc###wrapper + center + .container > div.row:nth-of-type(6)
 filman.cc###wrapper + center + .container > div.row:nth-of-type(7)
 filman.cc###wrapper + center + .container > div.row:nth-of-type(8)
 filman.cc###wrapper + center + .container > div.row:nth-of-type(9)
+filman.cc###wrapper + center + .container > div.row:has-text(tylko dla użytkowników, którzy posiadają konto Premium.)
 
 /* Series/Movie Filter View */
 filman.cc###filter-quality:style(--cols: 2 !important)
