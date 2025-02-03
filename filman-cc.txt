@@ -38,6 +38,13 @@ filman.cc###wrapper + center + .container > div.row:nth-of-type(8)
 filman.cc###wrapper + center + .container > div.row:nth-of-type(9)
 filman.cc###wrapper + center + .container > div.row:has-text(tylko dla użytkowników, którzy posiadają konto Premium.)
 
+/* Home Page Poster */
+filman.cc##.poster a::before:style(content: none !important)
+filman.cc##.poster a::after:style(content: none !important)
+filman.cc##.poster a .view
+filman.cc##.poster a .direct-version.fa-star
+filman.cc##.poster a .quality-version
+
 /* Series/Movie Filter View */
 filman.cc###filter-quality:style(--cols: 2 !important)
 filman.cc###filter-version:style(--cols: 2 !important)
