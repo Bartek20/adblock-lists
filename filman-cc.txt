@@ -1,5 +1,4 @@
 [Adblock Plus 2.0]
-! Title: Filman.cc
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/Bartek20/adblock-lists
 
@@ -23,7 +22,6 @@ filman.cc##header .container .row nav:style(margin-top: 0 !important)
 /* Mobile app ad (Premium only) */
 filman.cc##.filman
 filman.cc###wrapper + center
-filman.cc###wrapper + center + .container
 /* Search widget */
 filman.cc###search:style(position: relative !important; top: 0 !important; margin-bottom: 12px !important)
 filman.cc###search input:style(width: 100% !important)
