@@ -25,6 +25,7 @@ filman.cc###wrapper + center
 /* Search widget */
 filman.cc###search:style(position: relative !important; top: 0 !important; margin-bottom: 12px !important)
 filman.cc###search input:style(width: 100% !important)
+filman.cc###search #results:style(position: absolute !important; top: 100% !important; left: 15px !important; right: 15px !important; z-index: 1000 !important)
 /* Footer */
 filman.cc##footer:style(margin-top: auto !important)
 filman.cc##footer .container:style(width: 100% !important)
@@ -44,6 +45,9 @@ filman.cc##.poster a::after:style(content: none !important)
 filman.cc##.poster a .view
 filman.cc##.poster a .direct-version.fa-star
 filman.cc##.poster a .quality-version
+
+/* Item List (Home Page, Search Results) */
+filman.cc###item-list:style(display: flex !important; flex-wrap: wrap !important)
 
 /* Series/Movie Filter View */
 filman.cc###filter-quality:style(--cols: 2 !important)
