@@ -89,6 +89,7 @@ filman.cc###player-container:style(height: auto !important; margin-top: 0 !impor
 filman.cc###player-container > #frame center > br
 filman.cc###player-container > #frame b > br:last-of-type
 filman.cc###player-container > #frame b > a:style(margin-top: 10px !important)
+filman.cc###player-container > #frame iframe:style(margin-bottom: 0 !important)
 /* Link List */
 filman.cc###item-info form > ul
 filman.cc###player-container:style(min-height: 0 !important)
@@ -100,5 +101,6 @@ filman.cc###links tr td:nth-of-type(n+4)
 filman.cc###links > tbody > tr > td:first-of-type:style(padding: 0 !important)
 filman.cc###links > tbody > tr > td:first-of-type a:style(display: block !important; width: 100% !important; padding: 8px !important)
 filman.cc###item-info form + br
+filman.cc###link-list ~ .clearfix
 /* Related Movies */
 filman.cc###item-info + .row
