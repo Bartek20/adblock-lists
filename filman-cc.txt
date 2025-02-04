@@ -22,10 +22,12 @@ filman.cc##header .container .row nav:style(margin-top: 0 !important)
 /* Mobile app ad (Premium only) */
 filman.cc##.filman
 filman.cc###wrapper + center
+filman.cc###wrapper + center + center
+filman.cc###wrapper + center + center + .container
 /* Search widget */
 filman.cc###search:style(position: relative !important; top: 0 !important; margin-bottom: 12px !important)
 filman.cc###search input:style(width: 100% !important)
-filman.cc###search #results:style(position: absolute !important; top: 100% !important; left: 15px !important; right: 15px !important; z-index: 1000 !important)
+filman.cc###search #results:style(position: absolute !important; top: 100% !important; left: 15px !important; right: 15px !important; z-index: 1000 !important; padding-bottom: 50px !important)
 /* Footer */
 filman.cc##footer:style(margin-top: auto !important)
 filman.cc##footer .container:style(width: 100% !important)
@@ -33,11 +35,19 @@ filman.cc##footer .container:style(width: 100% !important)
 filman.cc##.grecaptcha-badge
 filman.cc##.grecaptcha-badge + iframe
 /* Comments/News/Tags (Home Page) */
+
+/* Free accounts */
 filman.cc###wrapper + center + .container > div.row:nth-of-type(6)
 filman.cc###wrapper + center + .container > div.row:nth-of-type(7)
 filman.cc###wrapper + center + .container > div.row:nth-of-type(8)
 filman.cc###wrapper + center + .container > div.row:nth-of-type(9)
 filman.cc###wrapper + center + .container > div.row:has-text(tylko dla użytkowników, którzy posiadają konto Premium.)
+/* Premium accounts */
+filman.cc###wrapper + center + center + .container + .container > div.row:nth-of-type(6)
+filman.cc###wrapper + center + center + .container + .container > div.row:nth-of-type(7)
+filman.cc###wrapper + center + center + .container + .container > div.row:nth-of-type(8)
+filman.cc###wrapper + center + center + .container + .container > div.row:nth-of-type(9)
+filman.cc###wrapper + center + center + .container + .container > div.row:has-text(tylko dla użytkowników, którzy posiadają konto Premium.)
 
 /* Home Page Poster */
 filman.cc##.poster a::before:style(content: none !important)
