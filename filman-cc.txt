@@ -28,6 +28,8 @@ filman.cc###wrapper + center + center + .container
 filman.cc###search:style(position: relative !important; top: 0 !important; margin-bottom: 12px !important)
 filman.cc###search input:style(width: 100% !important)
 filman.cc###search #results:style(position: absolute !important; top: 100% !important; left: 15px !important; right: 15px !important; z-index: 1000 !important; padding-bottom: 50px !important)
+/* Slider */
+filman.cc##search + .container
 /* Footer */
 filman.cc##footer:style(margin-top: auto !important)
 filman.cc##footer .container:style(width: 100% !important)
