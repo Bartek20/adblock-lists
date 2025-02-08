@@ -6,8 +6,9 @@
 /*/ Heading /*/
 moodle2.e-wsb.pl##.branding > div:style(padding-inline: 1rem !important)
 moodle2.e-wsb.pl##.branding > div > div > div > div:style(padding-right: 0 !important)
-moodle2.e-wsb.pl##.branding .site-logo:style(max-width: 100% !important; max-height: 40px !important; height: auto !important)
+moodle2.e-wsb.pl##.branding .site-logo:style(max-width: 100% !important; max-height: 40px !important; height: auto !important; margin-right: 0 !important; display: block !important)
 moodle2.e-wsb.pl##.branding .moremenu:style(height: 37px !important)
+moodle2.e-wsb.pl##.branding .moremenu ul li:nth-child(2):style(margin-left: 0 !important)
 moodle2.e-wsb.pl##.branding .branding-inner > div:style(align-items: center !important)
 moodle2.e-wsb.pl##.branding .branding-inner > div > .site-name.has-logo:style(top: unset !important)
 
