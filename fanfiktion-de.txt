@@ -1,0 +1,8 @@
+[Adblock Plus 2.0]
+! Expires: 1 day (update frequency)
+! Homepage: https://github.com/Bartek20/adblock-lists
+
+fanfiktion.de##.row:has(.ff-ad-row)
+fanfiktion.de##.ff-content-limited:style(max-height: unset !important)
+fanfiktion.de##.ff-content-limited::after:style(content: none !important)
+fanfiktion.de##.ff-content-limited-button
