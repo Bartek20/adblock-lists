@@ -4,6 +4,7 @@
 ! Homepage: https://github.com/Bartek20/adblock-lists
 
 fanfiktion.de##.row:not(.ff-text):has(.ff-ad-row)
+fanfiktion.de##.ff-separator.ff-ad
 fanfiktion.de##.ff-content-limited:style(max-height: unset !important)
 fanfiktion.de##.ff-content-limited::after:style(content: none !important)
 fanfiktion.de##.ff-content-limited-button
