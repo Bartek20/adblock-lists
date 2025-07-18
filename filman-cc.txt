@@ -7,6 +7,7 @@
 filman.cc##html:style(height: 100% !important)
 filman.cc##body:style(min-height: 100% !important; display: flex !important; flex-direction: column !important)
 filman.cc###wrapper + center + .container:style(max-width: 100% !important)
+filman.cc###wrapper + center + center + .container + .container:style(max-width: 100% !important)
 /* Header */
 filman.cc###belt:style(position: unset !important; margin-bottom: 0 !important)
 filman.cc###belt .row:style(display: flex !important)
