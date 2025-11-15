@@ -36,11 +36,17 @@ moodle2.e-wsb.pl##[aria-labelledby="groupingdropdown"]:style(min-width: 100% !im
 moodle2.e-wsb.pl###topofscroll .page-header-wrapper.has-course-header-image:has(.header-wrapper):style(margin-bottom: calc(36px + 1rem) !important)
 moodle2.e-wsb.pl##[data-key="unenrolself"]:style(display: block !important)
 moodle2.e-wsb.pl###topofscroll #user-notifications + div[role="main"] .course-content > div:first-of-type .section-details:has-text(Kurs realizowany w semestrze)
-moodle2.e-wsb.pl###page-navbar
 moodle2.e-wsb.pl###page-header .page-context-header:style(margin-inline: 15px !important; gap: .5rem !important; align-items: center !important)
 moodle2.e-wsb.pl###page-header .page-context-header .page-header-image:style(margin-right: 0 !important)
 moodle2.e-wsb.pl###page-header .page-context-header .page-header-headings:style(margin-top: 0 !important)
 moodle2.e-wsb.pl##li[id$="section-"]
+// Sidebar
+moodle2.e-wsb.pl###header + .branding:style(z-index:2000 !important)
+moodle2.e-wsb.pl##.drawer-left,.drawer-right:style(padding-top: 70px !important)
+moodle2.e-wsb.pl###course-index [role="treeitem"].courseindex-section:not(:has(li))
+moodle2.e-wsb.pl###course-index [role="treeitem"] .courseindex-item:style(position: relative !important)
+moodle2.e-wsb.pl###course-index [role="treeitem"] .courseindex-chevron::after:style(position: absolute !important; content: '' !important; inset: -1px !important; z-index: 1900 !important)
+moodle2.e-wsb.pl###course-index [role="treeitem"] .courseindex-link::after:style(position: absolute !important; content: '' !important; inset: -1px !important)
 moodle2.e-wsb.pl###course-index [role="treeitem"] .courseindex-link:style(width: 100% !important)
 moodle2.e-wsb.pl###course-index [role="treeitem"] .dragicon
 
