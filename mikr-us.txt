@@ -1,0 +1,20 @@
+/*/ Mikrus recykling /*/
+mikr.us##body > header:style(padding:1em !important)
+mikr.us##body > header > h1:style(line-height:1.3 !important;font-size:2rem !important)
+mikr.us##body > header > p:style(margin-bottom:.75rem !important;line-height:1.2 !important)
+mikr.us##body > footer
+
+/*/ Mikrus Serwer Panel /*/
+mikr.us###links02 > li.has-submenu:nth-child(1) > ul > li:nth-child(5)
+mikr.us###links02 > li.has-submenu:nth-child(1) > ul > li:nth-child(7)
+mikr.us###links02 > li.has-submenu:nth-child(1) > ul > li:nth-child(11)
+mikr.us###links02 > li.has-submenu:nth-child(4)
+mikr.us###links02 > li.has-submenu:nth-child(5) > ul > li:nth-child(1)
+mikr.us###links02 > li.has-submenu:nth-child(5) > ul > li:nth-child(7)
+mikr.us###links02 > li.has-submenu:nth-child(6) > ul > li:nth-child(2)
+mikr.us###links02 > li.has-submenu:nth-child(6) > ul > li:nth-child(3)
+mikr.us###links02 > li.has-submenu:nth-child(6) > ul > li:nth-child(6)
+mikr.us###serwery > .box:nth-child(n + 2):nth-last-child(n + 3)
+mikr.us###serwery + p
+mikr.us###mainbox > div:has-text(Chcesz otrzymywać powiadomienia o nowościach związanych z Mikrusem?)
+mikr.us##[data-intro="Brakuje Ci zasobów? Dorzuć ich trochę do VPSa :) To opłata jednorazowa. Nie zwiększa ceny Twojego serwera."]
