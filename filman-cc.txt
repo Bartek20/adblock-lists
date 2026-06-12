@@ -60,6 +60,7 @@ filman.cc##.grecaptcha-badge
 filman.cc##.grecaptcha-badge + iframe
 
 /* Item List (Home Page, Search Results) */
+filman.cc##body > .container > .row.fade-in-section:style(transform: translateY(0) !important)
 filman.cc###item-list:style(display: flex !important; flex-wrap: wrap !important; justify-content: center !important)
 filman.cc###item-list > div:style(transform: scale(1) !important; max-width: 200px)
 
