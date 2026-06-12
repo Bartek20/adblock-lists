@@ -65,7 +65,9 @@ filman.cc###item-list:style(display: flex !important; flex-wrap: wrap !important
 filman.cc###item-list > div:style(transform: scale(1) !important; max-width: 200px)
 
 /* Home Page Poster */
-filman.cc###item-list .poster img:style(aspect-ratio: 300 / 444 !important)
+filman.cc###item-list .poster a:style(overflow: hidden !important)
+filman.cc###item-list .poster a img:style(aspect-ratio: 300 / 444 !important; transition: .3s !important)
+filman.cc###item-list .poster a:hover img:style(transform: scale(1.1) !important)
 filman.cc###item-list .poster a:style(box-shadow: none !important; transform: scale(1) !important)
 filman.cc###item-list .poster a::before:style(content: none !important)
 filman.cc###item-list .poster a::after:style(content: none !important)
