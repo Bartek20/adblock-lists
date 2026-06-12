@@ -78,6 +78,9 @@ filman.cc##body > .container > div.row:nth-of-type(7)
 filman.cc##body > .container > div.row:nth-of-type(8)
 filman.cc##body > .container > div.row:nth-of-type(9)
 filman.cc##body > .container > div.row:nth-of-type(10)
+filman.cc##body > .container > div.row:has-text(Chmura tagów)
+filman.cc##body > .container > div.row > div > .list-inline a[href*="https://filman.cc/tag/"]
+filman.cc##body > .container > div.row:has-text(Ostatnie komentarze)
 filman.cc##body > .container > div.row:has-text(tylko dla użytkowników, którzy posiadają konto Premium.)
 
 /* Series/Movie Filter View */
