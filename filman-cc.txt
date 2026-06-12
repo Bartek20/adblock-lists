@@ -65,12 +65,13 @@ filman.cc###item-list:style(display: flex !important; flex-wrap: wrap !important
 filman.cc###item-list > div:style(transform: scale(1) !important; max-width: 200px)
 
 /* Home Page Poster */
-filman.cc##.poster a:style(box-shadow: none !important; transform: scale(1) !important)
-filman.cc##.poster a::before:style(content: none !important)
-filman.cc##.poster a::after:style(content: none !important)
-filman.cc##.poster a .view
-filman.cc##.poster a .direct-version.fa-star
-filman.cc##.poster a .quality-version
+filman.cc###item-list .poster img:style(aspect-ratio: 300 / 444 !important)
+filman.cc###item-list .poster a:style(box-shadow: none !important; transform: scale(1) !important)
+filman.cc###item-list .poster a::before:style(content: none !important)
+filman.cc###item-list .poster a::after:style(content: none !important)
+filman.cc###item-list .poster a .view
+filman.cc###item-list .poster a .direct-version.fa-star
+filman.cc###item-list .poster a .quality-version
 
 /* Comments/News/Tags (Home Page) */
 filman.cc##body > .container > div.row:nth-of-type(6)
