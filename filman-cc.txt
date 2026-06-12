@@ -5,110 +5,148 @@
 
 /* Main code */
 filman.cc##html:style(height: 100% !important)
-filman.cc##body:style(min-height: 100% !important; display: flex !important; flex-direction: column !important)
-filman.cc###wrapper + center + .container:style(max-width: 100% !important)
-filman.cc###wrapper + center + center + .container + .container:style(max-width: 100% !important)
-/* Header */
+filman.cc##body:style(min-height: 100% !important; display: flex !important; flex-direction: column !important; padding-bottom: 0 !important)
+filman.cc##::-webkit-scrollbar:style(width: 6px !important)
+filman.cc##body > .container:style(max-width: 100% !important)
+
+/* Header belt */
 filman.cc###belt:style(position: unset !important; margin-bottom: 0 !important)
 filman.cc###belt .row:style(display: flex !important)
 filman.cc###belt .row > div:not(:last-of-type)
 filman.cc###belt .row > div:last-of-type:style(width: auto !important; margin-left: auto !important)
 filman.cc###belt .row > div:last-of-type li:first-of-type span.caret
 filman.cc###belt .row > div:last-of-type > ul > li.dropdown:last-of-type
+
+/* Header */
 filman.cc##header:style(position: unset !important; padding-bottom: 0 !important)
 filman.cc##header .container .row:style(display: flex !important; align-items: center !important; row-gap: 12px !important)
 filman.cc##header .container .row > div:first-of-type:style(text-align: center !important)
 filman.cc##header .container .row > div:first-of-type img:style(max-width: min(220px, 100%) !important; padding-block: 8px !important)
 filman.cc##header .container .row > div:last-of-type:style(width: 100% !important; min-width: 250px !important)
 filman.cc##header .container .row nav:style(margin-top: 0 !important)
+filman.cc##header .container .row nav ul li:has-text(REKOMENDACJE AI)
+filman.cc##header .container .row nav ul li:has-text(PREMIUM)
+filman.cc##header .container .row nav ul li:has-text(CZAT)
+filman.cc##header .container .row nav ul li:has-text(LISTY)
+filman.cc##header .container .row nav select option[value="https://filman.cc/ai/search/"]
+filman.cc##header .container .row nav select option[value="https://filman.cc/premium"]
+filman.cc##header .container .row nav select option[value="/czat"]
+filman.cc##header .container .row nav select option[value="https://filman.cc/listy"]
+
 /* Top page ads */
 filman.cc##.filman
 filman.cc###wrapper + center
-filman.cc###wrapper + center + center
-filman.cc###wrapper + center + center + .container
+
 /* Search widget */
-filman.cc###search:style(position: relative !important; top: 0 !important; margin-bottom: 12px !important)
+filman.cc###search:style(position: relative !important; top: 0 !important; margin-bottom: 12px !important; padding: 0 !important; margin-inline: 15px !important; width: calc(100% - 30px) !important; border-width: 1px !important)
 filman.cc###search input:style(width: 100% !important)
 filman.cc###search #results:style(position: absolute !important; top: 100% !important; left: 15px !important; right: 15px !important; z-index: 1000 !important; padding-bottom: 50px !important)
+filman.cc###search #results #item-list:style(display: flex !important; flex-wrap: wrap !important)
+
 /* Slider */
 filman.cc###search + .container
+
 /* Footer */
 filman.cc##footer:style(margin-top: auto !important)
 filman.cc##footer .container:style(width: 100% !important)
+filman.cc##footer .container .row:style(display: flex !important; flex-wrap: wrap !important; justify-content: space-between !important; gap: 1rem !important)
+filman.cc##footer .container .row::before:style(content: none !important)
+filman.cc##footer .container .row::after:style(content: none !important)
+filman.cc##footer .container .row > div:style(width: auto !important)
+filman.cc##footer .container .row ul.list-inline:style(margin: 0 !important)
+
 /* Google ReCaptcha*/
 filman.cc##.grecaptcha-badge
 filman.cc##.grecaptcha-badge + iframe
-/* Comments/News/Tags (Home Page) */
 
-/* Free accounts */
-filman.cc###wrapper + center + .container > div.row:nth-of-type(6)
-filman.cc###wrapper + center + .container > div.row:nth-of-type(7)
-filman.cc###wrapper + center + .container > div.row:nth-of-type(8)
-filman.cc###wrapper + center + .container > div.row:nth-of-type(9)
-filman.cc###wrapper + center + .container > div.row:has-text(tylko dla użytkowników, którzy posiadają konto Premium.)
-/* Premium accounts */
-filman.cc###wrapper + center + center + .container + .container > div.row:nth-of-type(7)
-filman.cc###wrapper + center + center + .container + .container > div.row:nth-of-type(8)
-filman.cc###wrapper + center + center + .container + .container > div.row:nth-of-type(9)
-filman.cc###wrapper + center + center + .container + .container > div.row:nth-of-type(10)
-filman.cc###wrapper + center + center + .container + .container > div.row:has-text(tylko dla użytkowników, którzy posiadają konto Premium.)
+/* Item List (Home Page, Search Results) */
+filman.cc###item-list:style(display: flex !important; flex-wrap: wrap !important; justify-content: center !important)
+filman.cc###item-list > div:style(transform: scale(1) !important; max-width: 200px)
 
 /* Home Page Poster */
+filman.cc##.poster a:style(box-shadow: none !important; transform: scale(1) !important)
 filman.cc##.poster a::before:style(content: none !important)
 filman.cc##.poster a::after:style(content: none !important)
 filman.cc##.poster a .view
 filman.cc##.poster a .direct-version.fa-star
 filman.cc##.poster a .quality-version
 
-/* Item List (Home Page, Search Results) */
-filman.cc###item-list:style(display: flex !important; flex-wrap: wrap !important)
+/* Comments/News/Tags (Home Page) */
+filman.cc##body > .container > div.row:nth-of-type(6)
+filman.cc##body > .container > div.row:nth-of-type(7)
+filman.cc##body > .container > div.row:nth-of-type(8)
+filman.cc##body > .container > div.row:nth-of-type(9)
+filman.cc##body > .container > div.row:nth-of-type(10)
+filman.cc##body > .container > div.row:has-text(tylko dla użytkowników, którzy posiadają konto Premium.)
 
 /* Series/Movie Filter View */
 filman.cc###filter-quality:style(--cols: 2 !important)
 filman.cc###filter-version:style(--cols: 2 !important)
 filman.cc###filter-category:style(--cols: 1 !important; padding-right:6px !important)
 filman.cc###filter-year:style(--cols: 3 !important)
-filman.cc##[id*="filter"]:style(max-height: 300px !important; overflow: auto !important; margin-block: 6px !important; display: flex !important; flex-wrap: wrap !important; gap: 6px !important; overscroll-behavior: contain !important)
+filman.cc##[id*="filter"]:style(max-height: 300px !important; overflow: auto !important; margin-block: 6px !important; display: flex !important; flex-wrap: wrap !important; gap: 6px !important)
 filman.cc##[id*="filter"]::-webkit-scrollbar-track:style(box-shadow: none !important; background: rgba(255, 255, 255, .3) !important; border-radius: 6px !important)
 filman.cc##[id*="filter"] li:style(float: none !important; margin: 0 !important; min-width: calc((100% - ((var(--cols, 1) - 1) * 6px)) / var(--cols, 1)) !important; width: auto !important; border-radius: 4px !important)
 filman.cc##[id*="filter"] li a:style(color: white !important; padding: 4px 8px !important)
 
 /* Series/Movie View */
-filman.cc###item-headline + .container:style(max-width: 100% !important)
-filman.cc###item-info div.text-center .btn-group a:not(.btn)
-filman.cc###item-info div.text-center .btn-group a:style(margin-inline: 8px !important; border-radius: 6px !important; padding: 6px 12px !important)
-/* Headline, Title */
-filman.cc##h1 span.small
-filman.cc###item-headline:style(padding-top: 200px !important; padding-bottom: 12px !important)
-/* Ratings */
-filman.cc###single-poster > *:not(img):not(a)
-filman.cc###single-poster > a div
-/* Directors, Actors, Script Production, Keywords */
-filman.cc###item-info hr:nth-of-type(1)
-filman.cc###item-info h4:nth-of-type(2)
-filman.cc###item-info [itemprop="director"]
-filman.cc###item-info [itemprop="director"] + h4
-filman.cc###item-info [itemprop="productionCompany"]
-filman.cc###item-info [itemprop="productionCompany"] + h4
-filman.cc###item-info [itemprop="actors"]
-filman.cc###item-info [itemprop="actors"] + h4
-filman.cc###item-info [itemprop="keywords"]
+/* Info */
+filman.cc###item-headline:style(padding-top: 200px !important; padding-bottom: 12px !important; background-size: cover !important)
+filman.cc###item-headline::after:style(background: linear-gradient(to bottom,  rgba(37,37,37,1) 0%, rgba(37,37,37,0) 22%, rgba(37,37,37,0) 55%, rgba(37,40,37,1) 100%) !important)
+filman.cc###item-headline > *
+filman.cc###single-poster:style(margin-top: 0 !important)
+filman.cc###single-poster .main-poster:style(width: auto !important; margin-inline: auto !important)
+filman.cc###single-poster > img:style(max-width: 100% !important; max-height: 400px !important; object-fit: contain !important)
+filman.cc###single-poster .poster-tools
+filman.cc###single-info:style(padding-left: 0 !important)
+filman.cc###single-info h1 span
+
 /* Episode List */
-filman.cc###episode-list:style(display: flex !important; flex-direction: column-reverse !important; margin-bottom: 0 !important)
+filman.cc###episode-list:style(display: flex !important; gap: 4rem !important; overflow: auto !important; margin-bottom: 0 !important; white-space: nowrap !important; scroll-snap-type: x mandatory !important)
+filman.cc###episode-list li:style(flex-basis: 100% !important; flex-grow: 1 !important; flex-shrink: 0 !important; scroll-snap-align: start !important)
+filman.cc###episode-list::-webkit-scrollbar:style(height: 6px !important)
+filman.cc###episode-list::-webkit-scrollbar-track:style(box-shadow: none !important; background: rgba(255, 255, 255, .3) !important; border-radius: 6px !important)
+filman.cc###episode-list > li:nth-child(1):style(order: -1 !important)
+filman.cc###episode-list > li:nth-child(2):style(order: -2 !important)
+filman.cc###episode-list > li:nth-child(3):style(order: -3 !important)
+filman.cc###episode-list > li:nth-child(4):style(order: -4 !important)
+filman.cc###episode-list > li:nth-child(5):style(order: -5 !important)
+filman.cc###episode-list > li:nth-child(6):style(order: -6 !important)
+filman.cc###episode-list > li:nth-child(7):style(order: -7 !important)
+filman.cc###episode-list > li:nth-child(8):style(order: -8 !important)
+filman.cc###episode-list > li:nth-child(9):style(order: -9 !important)
+filman.cc###episode-list > li:nth-child(10):style(order: -10 !important)
+filman.cc###episode-list > li:nth-child(11):style(order: -11 !important)
+filman.cc###episode-list > li:nth-child(12):style(order: -12 !important)
+filman.cc###episode-list > li:nth-child(13):style(order: -13 !important)
+filman.cc###episode-list > li:nth-child(14):style(order: -14 !important)
+filman.cc###episode-list > li:nth-child(15):style(order: -15 !important)
+filman.cc###episode-list > li:nth-child(16):style(order: -16 !important)
+filman.cc###episode-list > li:nth-child(17):style(order: -17 !important)
+filman.cc###episode-list > li:nth-child(18):style(order: -18 !important)
+filman.cc###episode-list > li:nth-child(19):style(order: -19 !important)
+filman.cc###episode-list > li:nth-child(20):style(order: -20 !important)
 filman.cc###episode-list > li > ul:style(display: flex !important; flex-direction: column-reverse !important)
 filman.cc###episode-list + div
-filman.cc###episode-list + div + div
-filman.cc###episode-list + div + div + hr
+filman.cc###episode-list + div + hr
+
+/* Creators */
+filman.cc###item-content .flm-crew-section:style(margin-top: 20px !important)
+filman.cc###item-content .flm-crew-section + hr
+
 /* Comments */
-filman.cc###item-info div.alert.alert-info
-filman.cc###item-info h4:last-of-type
-filman.cc###item-info > div > h4:nth-last-of-type(2)
-filman.cc###item-info h4 + div.alert.alert-info
-filman.cc###comments
-filman.cc###add-comment
-filman.cc###add-comment + hr
-filman.cc###add-comment + hr + div
-filman.cc###add-comment + hr + div + hr
+filman.cc###item-content .c-section-header
+filman.cc###item-content #comments
+filman.cc###item-content .c-add-wrap
+
+/* Keyworrds */
+filman.cc###item-content > hr:last-of-type
+filman.cc###item-content > h4:last-of-type
+filman.cc###item-content > [itemprop="keywords"]
+
+/* Recommendations */
+filman.cc###item-content > .row:last-of-type
+
 /* Player/URL Note */
 filman.cc###player-container:style(height: auto !important; margin-top: 0 !important; margin-bottom: 16px !important; overflow: auto !important)
 filman.cc###player-container > #frame center > br
@@ -128,5 +166,3 @@ filman.cc###links > tbody > tr > td:first-of-type:style(padding: 0 !important)
 filman.cc###links > tbody > tr > td:first-of-type a:style(display: block !important; width: 100% !important; padding: 8px !important)
 filman.cc###item-info form + br
 filman.cc###link-list ~ .clearfix
-/* Related Movies */
-filman.cc###item-info + .row
