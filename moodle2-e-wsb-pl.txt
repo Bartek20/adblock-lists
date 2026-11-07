@@ -14,11 +14,11 @@ moodle2.e-wsb.pl##.branding .moremenu ul li:nth-child(2):style(margin-left: 0 !i
 moodle2.e-wsb.pl##.branding .branding-inner > div:style(align-items: center !important)
 moodle2.e-wsb.pl##.branding .branding-inner > div > .site-name.has-logo:style(top: unset !important)
 // User menu
-moodle2.e-wsb.pl###user-action-menu .carousel-item-main a[href="https://moodle2.e-wsb.pl/user/profile.php"]
-moodle2.e-wsb.pl###user-action-menu .carousel-item-main a[href="https://moodle2.e-wsb.pl/calendar/view.php?view=month"]
-moodle2.e-wsb.pl###user-action-menu .carousel-item-main a[href="https://moodle2.e-wsb.pl/user/preferences.php"]
-moodle2.e-wsb.pl###user-action-menu .carousel-item-main a[href="https://moodle2.e-wsb.pl/user/preferences.php"] + a
-moodle2.e-wsb.pl###user-action-menu .carousel-item-main a[href="https://moodle2.e-wsb.pl/user/preferences.php"] + a + div
+moodle2.e-wsb.pl###user-action-menu #carousel-item-main a[href="https://moodle2.e-wsb.pl/user/profile.php"]
+moodle2.e-wsb.pl###user-action-menu #carousel-item-main a[href="https://moodle2.e-wsb.pl/calendar/view.php?view=month"]
+moodle2.e-wsb.pl###user-action-menu #carousel-item-main a[href="https://moodle2.e-wsb.pl/user/preferences.php"]
+moodle2.e-wsb.pl###user-action-menu #carousel-item-main a[href="https://moodle2.e-wsb.pl/user/preferences.php"] + a
+moodle2.e-wsb.pl###user-action-menu #carousel-item-main a[href="https://moodle2.e-wsb.pl/user/preferences.php"] + a + div
 
 /*/ Wszystkie kursy /*/
 moodle2.e-wsb.pl##.page-header-wrapper #page-header > div:first-of-type:last-of-type > div:last-child > h1.h2
