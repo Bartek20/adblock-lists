@@ -4,6 +4,7 @@
 ! Homepage: https://github.com/Bartek20/adblock-lists
 
 /*/ Heading /*/
+moodle2.e-wsb.pl##header:style(z-index: 2001 !important)
 moodle2.e-wsb.pl##.branding > div:style(padding-inline: 1rem !important)
 moodle2.e-wsb.pl##.branding > div > div > div > div:style(padding-right: 0 !important)
 moodle2.e-wsb.pl##.branding .site-name:style(top: 0 !important)
@@ -12,9 +13,14 @@ moodle2.e-wsb.pl##.branding .moremenu:style(height: 37px !important)
 moodle2.e-wsb.pl##.branding .moremenu ul li:nth-child(2):style(margin-left: 0 !important)
 moodle2.e-wsb.pl##.branding .branding-inner > div:style(align-items: center !important)
 moodle2.e-wsb.pl##.branding .branding-inner > div > .site-name.has-logo:style(top: unset !important)
+// User menu
+moodle2.e-wsb.pl###user-action-menu .carousel-item-main a[href="https://moodle2.e-wsb.pl/user/profile.php"]
+moodle2.e-wsb.pl###user-action-menu .carousel-item-main a[href="https://moodle2.e-wsb.pl/calendar/view.php?view=month"]
+moodle2.e-wsb.pl###user-action-menu .carousel-item-main a[href="https://moodle2.e-wsb.pl/user/preferences.php"]
+moodle2.e-wsb.pl###user-action-menu .carousel-item-main a[href="https://moodle2.e-wsb.pl/user/preferences.php"] + a
+moodle2.e-wsb.pl###user-action-menu .carousel-item-main a[href="https://moodle2.e-wsb.pl/user/preferences.php"] + a + div
 
 /*/ Wszystkie kursy /*/
-moodle2.e-wsb.pl##header:style(z-index: 2001 !important)
 moodle2.e-wsb.pl##.page-header-wrapper #page-header > div:first-of-type:last-of-type > div:last-child > h1.h2
 moodle2.e-wsb.pl##.page-header-wrapper #page-header > div:first-of-type:last-of-type .page-context-header:not(:has(.page-header-image)):style(padding-block: 0 !important)
 moodle2.e-wsb.pl##.page-header-wrapper #page-header > div:first-of-type:last-of-type .page-context-header .page-header-headings:first-child
