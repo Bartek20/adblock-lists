@@ -6,6 +6,7 @@
 /*/ Heading /*/
 moodle2.e-wsb.pl##.branding > div:style(padding-inline: 1rem !important)
 moodle2.e-wsb.pl##.branding > div > div > div > div:style(padding-right: 0 !important)
+moodle2.e-wsb.pl##.branding .site-name:style(top: 0 !important)
 moodle2.e-wsb.pl##.branding .site-logo:style(max-width: 100% !important; max-height: 40px !important; height: auto !important; margin-right: 0 !important; display: block !important)
 moodle2.e-wsb.pl##.branding .moremenu:style(height: 37px !important)
 moodle2.e-wsb.pl##.branding .moremenu ul li:nth-child(2):style(margin-left: 0 !important)
@@ -54,3 +55,6 @@ moodle2.e-wsb.pl###course-index [role="treeitem"] .dragicon
 /*/ Footer /*/
 moodle2.e-wsb.pl##footer
 moodle2.e-wsb.pl##[title="Scroll Back to Top"]
+
+/*/ Dostępność /*/
+moodle2.e-wsb.pl##.aioa-widget-wrapper
